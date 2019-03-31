@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>mission2-5.php</title>
+</head>
+
+<body>
+
+<h1>編集機能</h1>
+
+<form action="http://データベース/mission_2-5-2.php  " method="post">
+　<input type="text" name="name" placeholder="名前"><br>
+　<input type="text" name="comment" placeholder="コメント"><br>
+　<input type="text" name="pass" placeholder="パスワード"><br>
+  <input type="hidden" name="kakusu" value="<?php echo $kakusu;?>">
+　<input type="submit" value="送信"><br>
+<br>
+　<input type="text" name="sakujo" placeholder="削除対象番号"><br>
+　<input type="text" name="pass2" placeholder="パスワード"><br>
+　<input type="submit" value="削除"><br>
+<br>
+　<input type="text" name="hensyu" placeholder="編集対象番号"><br>
+　<input type="text" name="pass3" placeholder="パスワード"><br>
+　<input type="submit" value="編集"><br>
+</form>
+
+</body>
+</html>
+
